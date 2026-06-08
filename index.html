@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Huv</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .hero-gradient {
+      background: linear-gradient(135deg, #ffffff 0%, #fef2f2 100%);
+    }
+  </style>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-fixed-variant": "#8e1300",
+            "surface-tint": "#ba1c00",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed-variant": "#005313",
+            "on-error": "#ffffff",
+            "on-background": "#1a1c1c",
+            "secondary-container": "#e2e0fc",
+            "inverse-surface": "#2f3131",
+            "surface-container-low": "#f3f3f3",
+            "background": "#f9f9f9",
+            "outline": "#916f69",
+            "on-surface": "#1a1c1c",
+            "outline-variant": "#e5bdb6",
+            "surface-container": "#eeeeee",
+            "secondary-fixed-dim": "#c6c4df",
+            "inverse-primary": "#ffb4a5",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#fffbff",
+            "tertiary-fixed": "#94f990",
+            "surface-variant": "#e2e2e2",
+            "tertiary-fixed-dim": "#78dc77",
+            "on-secondary-fixed-variant": "#45455b",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-fixed": "#3e0400",
+            "on-error-container": "#93000a",
+            "primary-fixed-dim": "#ffb4a5",
+            "primary-container": "#dc3214",
+            "tertiary-container": "#1e862d",
+            "primary-fixed": "#ffdad3",
+            "on-secondary-fixed": "#1a1a2e",
+            "error": "#ba1a1a",
+            "inverse-on-surface": "#f1f1f1",
+            "secondary": "#5d5c74",
+            "primary": "#b51c00",
+            "on-surface-variant": "#5c403a",
+            "surface-container-high": "#e8e8e8",
+            "secondary-fixed": "#e2e0fc",
+            "error-container": "#ffdad6",
+            "surface-container-highest": "#e2e2e2",
+            "surface-dim": "#dadada",
+            "on-tertiary-container": "#f7fff1",
+            "on-tertiary-fixed": "#002204",
+            "surface": "#f9f9f9",
+            "surface-bright": "#f9f9f9",
+            "tertiary": "#006b1b",
+            "on-secondary": "#ffffff",
+            "on-secondary-container": "#63627a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "md": "24px",
+            "xs": "4px",
+            "xl": "64px",
+            "margin-desktop": "48px",
+            "margin-mobile": "16px",
+            "sm": "12px",
+            "lg": "40px",
+            "base": "8px",
+            "gutter": "24px"
+          },
+          "fontFamily": {
+            "body-lg": ["Plus Jakarta Sans"],
+            "label-md": ["Inter"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "display-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "label-sm": ["Inter"]
+          },
+          "fontSize": {
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+            "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "600" }]
+          }
+        },
+      },
+    }
+  </script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="logo">🐳</div>
+
+    <h1>Docker UC Website Test</h1>
+
+    <p>
+        Congratulations! Your Docker container and Nginx web server
+        are working successfully.
+    </p>
+
+    <div class="status">
+        ✅ Container Running
+    </div>
+
+    <br>
+
+    <a href="#" class="btn">Docker is Working</a>
+
+    <div class="footer">
+        Powered by Docker + Nginx
+    </div>
+</div>
+
+</body>
+</html>
